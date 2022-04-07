@@ -5,6 +5,6 @@ def fun_1():
         result = number_1 / number_2
         return result
     except ZeroDivisionError:
-        return "На ноль делить нельзя"
+        return "На ноль делить нельзя!"
 
 print(fun_1())
