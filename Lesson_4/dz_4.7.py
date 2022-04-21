@@ -6,7 +6,7 @@ def fact():
         yield factorial(el)
 
 x = 0
-n = int(input("Введите число до которого нужно посчитать: "))
+n = int(input("Введите число, до которого нужно посчитать: "))
 for i in fact():
     if x < n:
         print(i)
