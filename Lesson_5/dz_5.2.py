@@ -1,0 +1,11 @@
+text_2 = open('text_2.txt', 'r', encoding="utf-8")
+list_1 = text_2.read()
+print(list_1)
+text_2.seek(0)
+list_2 = text_2.readlines()
+print(f'Общее количество строк: {len(list_2)}')
+text_2.seek(0)
+list_3 = text_2.readlines()
+for i in range(len(list_3)):
+    print(f'Строка {i + 1}: {len(list_3[i])} символов')
+text_2.close()
