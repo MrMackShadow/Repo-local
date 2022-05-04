@@ -1,0 +1,5 @@
+CreditTehno GP 2000 7000
+FinancePlace LP 8000 3000
+NickelInc G 15000 12000
+Faberlic JV 100000 80000
+MegaHit LLC 12000 45000
